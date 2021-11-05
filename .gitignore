@@ -1,0 +1,12 @@
+*.aux
+*.bbl
+*.blg
+*.hst
+*.lof
+*.log
+*.pdf
+*.gz
+*.toc
+*.ver
+reference/
+images/
