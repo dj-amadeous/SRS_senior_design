@@ -1,10 +1,26 @@
-This section provides a description of your product and defines it's primary features and functions. The purpose is to give the document reader/reviewer enough information about the product to allow them to easily follow the specification of requirements found in the remainder of the document. Your header for this section should introduce the section with a brief statement such as: "This section provides the reader with an overview of X. The primary operational aspects of the product, from the perspective of end users, maintainers and administrators, are defined here. The key features and functions found in the product, as well as critical user interactions and user interfaces are described in detail." Using words, and pictures or graphics where possible, specify the following:
+The objective of the robot is to demonstrate the use of a tethered underwater robot to collect 'trash' from the ocean floor, midwater, and surface. The robot then will deposit the trash in a proper receptacle. The game field simulates an underwater environment containing objects such as industrial infrastructure and underwater debris. Underwater and surface obstacles and anomalies represent typical operational challenges. 
 
 \subsection{Features \& Functions}
-What the product does and does not do. Specify in words what it looks like, referring to a conceptual diagram/graphic (Figure X).  Define the principle parts/components of the product. Specify the elements in the diagram/graphic that are part(s) of this product as well as any associated external elements (e.g., the Internet, an external web server, a GPS satellite, etc.)
+The frame of the robot will be made on carbon fiber. Carbon fiber tubes will produce a cuboid, whose ends will be connected by 3D printed parts. The robot will be equipped with 4-5 thrusters (number of thrusters tentative) controlled by microcontroller(s). The robot will also have a camera that will help the pilot to see underwater. A pressure transducer may also be utilized to detect and control depth (This is not confirmed). A claw/grabbing mechanism will allow the robot to grab and hold objects underwater. The robot will have a tether that will house the wires (for connecting microcontrollers to thrusters and claw), Cat 5 cable (to connect camera to computer). The robot will also contain a battery used to power it. 
+
+Off site, we will have our computer for the camera feed and to see other data, and a remote with joystick to control the robot. 
 
 \subsection{External Inputs \& Outputs}
-Describe critical external data flows. What does your product require/expect to receive from end users or external systems (inputs), and what is expected to be created by your product for consumption by end users or external systems (outputs)? In other words, specify here all data/information to flow into and out of your systems. A table works best here, with rows for each critical data element, and columns for name, description and use.
+Through the tether: 
+
+The camera will output a live feed to the computer. 
+
+A cable may be used to output data about thruster usage to the computer.  description and use.
+
+Input: 
+
+Through the tether, microcontroller will provide instructions for the thrusters and claw. 
+
+The battery will provide power to the thrusters. 
 
 \subsection{Product Interfaces}
-Specify what all operational (visible) interfaces look like to your end-user, administrator, maintainer, etc. Show sample/mocked-up screen shots, graphics of buttons, panels, etc. Refer to the critical external inputs and outputs described in the paragraph above.
+We will have a live camera feed through the Cat 5 cable. 
+
+We will have graphs and other data representing thruster power, usage, and other data. 
+
+We may also have information about depth (if pressure transducer is used). 
